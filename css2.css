@@ -1,0 +1,133 @@
+body {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #404040;
+}
+
+/* Encabezado */
+#inicio {
+  display: flex;
+  padding-left: 225px;
+}
+
+#logo h1 {
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+#menu_principal {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-left: 180px;
+}
+
+#menu_principal li {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+#menu_principal a {
+  outline: none;
+  text-decoration: none;
+  color: #404040;
+  transition: color .2s ease-in;
+}
+
+/* Menú superior */
+#arriba li {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+#arriba li a:hover {
+  color: grey;
+}
+
+#arriba li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#rojo a {
+  color: white;
+}
+
+/* Buscador */
+#buscador {
+  display: flex;
+  background: #a34340 radial-gradient(ellipse at bottom center, #c6635f 0, #a34340 70%);
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.buscador {
+  float: right;
+  box-sizing: border-box;
+  padding-left: 640px;
+  text-align: left;
+}
+
+/* Contenido principal */
+#principal {
+  float: left;
+  width: 650px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 100px;
+  margin-left: 225px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.articulo {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+/* Contenido secundario */
+#secundario {
+  float: right;
+  width: 500px;
+}
+
+#lateral li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+#lateral a {
+  color: #41807c;
+}
+
+/* Pie de página */
+#pie {
+  background: #3c5452;
+  clear: left;
+  height: 40px;
+  padding-top: 25px;
+}
+
+#pie a, .enlaces, .copyright {
+  color: white;
+}
+
+.enlaces {
+  justify-content: left;
+  padding-left: 20px;
+}
+
+/* Tamaños y posiciones específicas */
+img {
+  width: 150px;
+  height: 150px;
+  padding-left: 240px;
+  padding-top: 10px;
+}
+
+#principal div:nth-child(2) p:nth-child(4) {
+  text-align: center;
+}
